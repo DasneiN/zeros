@@ -1,3 +1,23 @@
 module.exports = function getZerosCount(number) {
-  // your implementation
+  let result = 0,
+      n = 5,
+      m = n;
+
+  while (true) {
+    let x = Math.floor(number / m);
+
+    if (x == 0) {
+      return result;
+    } else {
+      result += x;
+      m *= n;
+    }
+    
+    // if (x > 1) {
+    //   result += x;
+    //   m *= n;
+    // } else {
+    //   return ++result;
+    // }
+  }
 }
