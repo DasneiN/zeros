@@ -13,11 +13,5 @@ module.exports = function getZerosCount(number) {
       m *= n;
     }
     
-    // if (x > 1) {
-    //   result += x;
-    //   m *= n;
-    // } else {
-    //   return ++result;
-    // }
   }
 }
